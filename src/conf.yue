@@ -1,0 +1,5 @@
+love.conf = (t)->
+    t.window.title = "lunastencil"
+    t.window.width = 250
+    t.window.height = 250
+    t.window.highdpi = true

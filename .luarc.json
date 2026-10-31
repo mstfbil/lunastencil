@@ -1,0 +1,9 @@
+{
+    "workspace.library": [
+        "${addons}/love2d/module/library"
+    ],
+    "runtime.special": {
+        "love.filesystem.load": "loadfile"
+    },
+    "workspace.checkThirdParty": false
+}

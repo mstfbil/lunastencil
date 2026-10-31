@@ -1,0 +1,12 @@
+text = "lunastencil!"
+local text_height
+
+love.load = ()->
+    love.graphics.setBackgroundColor 0.2, 0.4, 0.5
+
+    font = love.graphics.getFont!
+    text_height = font\getHeight!
+
+love.draw = ()->
+    with love.graphics
+        .printf text, 0, .getHeight! / 2 - text_height / 2, .getWidth!, "center"
